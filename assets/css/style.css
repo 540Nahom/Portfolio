@@ -66,6 +66,7 @@ h6,
   color: #000;
 }
 
+
 .filters a.active:before {
   content: "";
   position: absolute;
@@ -387,12 +388,13 @@ h6,
   width: 100%;
 }
 
-@media (max-width: 780px) {
-  .custom-navbar>.container {
-    padding-right: 0;
-    padding-left: 0;
+@media (min-width: 992px) {
+  .col-lg-3 {
+      flex: 0 0 auto;
+      width: 33%;
   }
 }
+
 
 .custom-navbar .navbar-brand {
   font-size: 1.7rem;
@@ -500,4 +502,10 @@ h6,
 
 .social a:hover {
   color: #000;
+}
+
+/* custom.css */
+.custom-img {
+  width: 500px;
+  height: 300px;
 }
